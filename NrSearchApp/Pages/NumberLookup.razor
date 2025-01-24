@@ -1,0 +1,113 @@
+﻿@page "/lookup"
+@using NrSearchApp.Models
+@using NrSearchApp.Services
+
+@inject NumverifyService NumverifyService
+@inject ISearchStorage SearchStorage
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h2 class="card-title mb-4">Sök Telefonnummer</h2>
+        
+        <form @onsubmit:preventDefault @onsubmit="HandleSubmit">
+            <div class="form-group mb-3">
+                <label for="phoneNumber" class="form-label">Telefonnummer</label>
+                <input id="phoneNumber" 
+                       type="text" 
+                       class="form-control" 
+                       @bind="number" 
+                       @bind:event="oninput"
+                       placeholder="+46701234567" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                @if (isLoading)
+                {
+                    <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                    <span>Söker...</span>
+                }
+                else
+                {
+                    <span>Sök</span>
+                }
+            </button>
+        </form>
+
+        @if (result != null)
+        {
+            <div class="card mt-4 @(result.Valid ? "border-success" : "border-danger")">
+                <div class="card-body">
+                    <h5 class="card-title">Resultat</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Nummer:</strong> @result.InternationalFormat</p>
+                            <p><strong>Land:</strong> @result.Country (@result.CountryCode)</p>
+                            <p><strong>Plats:</strong> @result.Location</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Operatör:</strong> @result.Carrier</p>
+                            <p><strong>Nummertyp:</strong> @result.LineType</p>
+                            <p><strong>Status:</strong> @(result.Valid ? "Giltigt" : "Ogiltigt")</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-primary mt-2" @onclick="SaveSearch">
+                        <i class="bi bi-bookmark-plus"></i> Spara sökning
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private string number = string.Empty;
+    private PhoneNumberModel? result;
+    private bool isLoading;
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            isLoading = true;
+            StateHasChanged();
+            
+            Console.WriteLine($"HandleSubmit called with number: {number}");
+            result = await NumverifyService.ValidatePhoneNumber(number);
+            
+            if (result != null)
+            {
+                Console.WriteLine($"Search completed. Valid: {result.Valid}, Country: {result.Country}");
+            }
+            else
+            {
+                Console.WriteLine("Search returned null result");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in HandleSubmit: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private void SaveSearch()
+    {
+        if (result != null)
+        {
+            SearchStorage.AddSearch(new SavedSearchModel
+            {
+                PhoneNumber = result.Number,
+                Country = result.Country,
+                Carrier = result.Carrier,
+                LineType = result.LineType,
+                Valid = result.Valid,
+                SearchDate = DateTime.Now
+            });
+        }
+    }
+}
+

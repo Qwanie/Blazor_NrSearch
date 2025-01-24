@@ -1,0 +1,75 @@
+﻿@page "/saved"
+
+@using NrSearchApp.Models
+@using NrSearchApp.Services
+
+@inject ISearchStorage SearchStorage
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h2 class="card-title mb-4">Sparade Sökningar</h2>
+
+        @if (!searches.Any())
+        {
+            <div class="alert alert-info">
+                Inga sparade sökningar än.
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nummer</th>
+                            <th>Land</th>
+                            <th>Operatör</th>
+                            <th>Typ</th>
+                            <th>Status</th>
+                            <th>Datum</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var search in searches)
+                        {
+                            <tr>
+                                <td>@search.PhoneNumber</td>
+                                <td>@search.Country</td>
+                                <td>@search.Carrier</td>
+                                <td>@search.LineType</td>
+                                <td>
+                                    <span class="badge @(search.Valid ? "bg-success" : "bg-danger")">
+                                        @(search.Valid ? "Giltig" : "Ogiltig")
+                                    </span>
+                                </td>
+                                <td>@search.SearchDate.ToLocalTime().ToString("g")</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-danger" @onclick="() => DeleteSearch(search)">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private IEnumerable<SavedSearchModel> searches = Enumerable.Empty<SavedSearchModel>();
+
+    protected override void OnInitialized()
+    {
+        searches = SearchStorage.GetSearches();
+    }
+
+    private void DeleteSearch(SavedSearchModel search)
+    {
+        SearchStorage.RemoveSearch(search);
+        searches = SearchStorage.GetSearches();
+    }
+}
+

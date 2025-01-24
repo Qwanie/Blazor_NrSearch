@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.nav-link {
+    color: #2c3e50;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.card-title {
+    color: #2c3e50;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.table th {
+    border-top: none;
+    color: #7f8c8d;
+    font-weight: 600;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.8em;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+#blazor-error-ui {
+    background: #fff3cd;
+    border: 1px solid #ffecb5;
+    border-radius: 0.25rem;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+    display: none;
+    left: 0;
+    margin: 1rem;
+    padding: 1rem;
+    position: fixed;
+    width: auto;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+#blazor-error-ui .reload {
+    color: #2c3e50;
+    text-decoration: none;
+    margin-left: 1rem;
+} 
