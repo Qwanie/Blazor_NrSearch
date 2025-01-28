@@ -1,4 +1,5 @@
-﻿@page "/lookup"
+﻿@page "/"
+@page "/lookup"
 @using NrSearchApp.Models
 @using NrSearchApp.Services
 
@@ -50,8 +51,9 @@
                             <p><strong>Status:</strong> @(result.Valid ? "Giltigt" : "Ogiltigt")</p>
                         </div>
                     </div>
-                    <button class="btn btn-outline-primary mt-2" @onclick="SaveSearch">
-                        <i class="bi bi-bookmark-plus"></i> Spara sökning
+                    <button class="btn btn-outline-primary mt-2" @onclick="SaveSearch" disabled="@isSaved">
+                        <i class="bi @(isSaved ? "bi-bookmark-check" : "bi-bookmark-plus")"></i> 
+                        @(isSaved ? "Sökningen sparad" : "Spara sökning")
                     </button>
                 </div>
             </div>
@@ -63,6 +65,7 @@
     private string number = string.Empty;
     private PhoneNumberModel? result;
     private bool isLoading;
+    private bool isSaved = false;
 
     private async Task HandleSubmit()
     {
@@ -107,6 +110,7 @@
                 Valid = result.Valid,
                 SearchDate = DateTime.Now
             });
+            isSaved = true;
         }
     }
 }
