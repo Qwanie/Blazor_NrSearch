@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tQb0Z8mPBdFUB1+VO/Op5LXmuwfb82xKsRMTT3nByvc=",
+  "Hash": "JVs2n8xXuNsGX5BtKJuFKYxNxwlteujULgIUjn51+QE=",
   "Source": "NrSearchApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "qbl1csmvj9",
-      "Integrity": "Nr76XnVeZKFb5uEm06wK7goefHq2MT2GCw/u8XU+2w4=",
+      "Fingerprint": "smf5036rcu",
+      "Integrity": "nBX9emKu5zvOMCTYx9516BtfLGdJpRDkMNf20e7FYvk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -955,8 +955,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "4mfpfyr0aw",
-      "Integrity": "tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko=",
+      "Fingerprint": "7n9ef1h21h",
+      "Integrity": "U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\NrSearchApp.pdb"
@@ -976,8 +976,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "1ibghlx7yj",
-      "Integrity": "OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE=",
+      "Fingerprint": "xvb4r8e92p",
+      "Integrity": "LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\webcil\\NrSearchApp.wasm"
@@ -4847,12 +4847,12 @@
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.wasm"
     },
     {
-      "Identity": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-4mfpfyr0aw.gz",
+      "Identity": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-7n9ef1h21h.gz",
       "SourceId": "NrSearchApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/NrSearchApp#[.{fingerprint=4mfpfyr0aw}]!.pdb.gz",
+      "RelativePath": "_framework/NrSearchApp#[.{fingerprint=7n9ef1h21h}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4861,8 +4861,8 @@
       "RelatedAsset": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6shx29crgc",
-      "Integrity": "uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ=",
+      "Fingerprint": "21l12yhvm0",
+      "Integrity": "SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.pdb"
@@ -7094,7 +7094,7 @@
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Web.wasm"
     },
     {
-      "Identity": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\idxxqk4wns-qbl1csmvj9.gz",
+      "Identity": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\idxxqk4wns-smf5036rcu.gz",
       "SourceId": "NrSearchApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -7108,8 +7108,8 @@
       "RelatedAsset": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "uieifg21tz",
-      "Integrity": "+tYC/u+XLjHjcMMKRJf0PMZi1h8uMRDCIrbvGPw/jw0=",
+      "Fingerprint": "641fu26jpn",
+      "Integrity": "ZvnOEtlGfGVor/Ap2ALtg4CeHNnS+H/aERvsHlsJFSI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8690,12 +8690,12 @@
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-1ibghlx7yj.gz",
+      "Identity": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-xvb4r8e92p.gz",
       "SourceId": "NrSearchApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/NrSearchApp#[.{fingerprint=1ibghlx7yj}]!.wasm.gz",
+      "RelativePath": "_framework/NrSearchApp#[.{fingerprint=xvb4r8e92p}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8704,8 +8704,8 @@
       "RelatedAsset": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "czvf5eem5t",
-      "Integrity": "WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk=",
+      "Fingerprint": "33igi70mpq",
+      "Integrity": "cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.wasm"
@@ -10957,7 +10957,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Nr76XnVeZKFb5uEm06wK7goefHq2MT2GCw/u8XU+2w4=\""
+          "Value": "\"nBX9emKu5zvOMCTYx9516BtfLGdJpRDkMNf20e7FYvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBX9emKu5zvOMCTYx9516BtfLGdJpRDkMNf20e7FYvk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\idxxqk4wns-smf5036rcu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000079681275"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12549"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvnOEtlGfGVor/Ap2ALtg4CeHNnS+H/aERvsHlsJFSI=\""
         },
         {
           "Name": "Last-Modified",
@@ -10966,45 +11005,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Nr76XnVeZKFb5uEm06wK7goefHq2MT2GCw/u8XU+2w4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\idxxqk4wns-qbl1csmvj9.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000079693975"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12547"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+tYC/u+XLjHjcMMKRJf0PMZi1h8uMRDCIrbvGPw/jw0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:20:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -11020,19 +11020,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Nr76XnVeZKFb5uEm06wK7goefHq2MT2GCw/u8XU+2w4=\""
+          "Value": "W/\"nBX9emKu5zvOMCTYx9516BtfLGdJpRDkMNf20e7FYvk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Nr76XnVeZKFb5uEm06wK7goefHq2MT2GCw/u8XU+2w4="
+          "Value": "sha256-nBX9emKu5zvOMCTYx9516BtfLGdJpRDkMNf20e7FYvk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\idxxqk4wns-qbl1csmvj9.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\idxxqk4wns-smf5036rcu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11041,7 +11041,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12547"
+          "Value": "12549"
         },
         {
           "Name": "Content-Type",
@@ -11049,11 +11049,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+tYC/u+XLjHjcMMKRJf0PMZi1h8uMRDCIrbvGPw/jw0=\""
+          "Value": "\"ZvnOEtlGfGVor/Ap2ALtg4CeHNnS+H/aERvsHlsJFSI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:20:57 GMT"
+          "Value": "Tue, 28 Jan 2025 20:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11071,7 +11071,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+tYC/u+XLjHjcMMKRJf0PMZi1h8uMRDCIrbvGPw/jw0="
+          "Value": "sha256-ZvnOEtlGfGVor/Ap2ALtg4CeHNnS+H/aERvsHlsJFSI="
         }
       ]
     },
@@ -23729,168 +23729,7 @@
       ]
     },
     {
-      "Route": "_framework/NrSearchApp.1ibghlx7yj.wasm",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31509"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1ibghlx7yj"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/NrSearchApp.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/NrSearchApp.1ibghlx7yj.wasm",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-1ibghlx7yj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000077796795"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12853"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1ibghlx7yj"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/NrSearchApp.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/NrSearchApp.1ibghlx7yj.wasm.gz",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-1ibghlx7yj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12853"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1ibghlx7yj"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/NrSearchApp.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/NrSearchApp.4mfpfyr0aw.pdb",
+      "Route": "_framework/NrSearchApp.7n9ef1h21h.pdb",
       "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23908,11 +23747,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko=\""
+          "Value": "\"U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:05 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23922,7 +23761,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4mfpfyr0aw"
+          "Value": "7n9ef1h21h"
         },
         {
           "Name": "label",
@@ -23930,13 +23769,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko="
+          "Value": "sha256-U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q="
         }
       ]
     },
     {
-      "Route": "_framework/NrSearchApp.4mfpfyr0aw.pdb",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-4mfpfyr0aw.gz",
+      "Route": "_framework/NrSearchApp.7n9ef1h21h.pdb",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-7n9ef1h21h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -23955,11 +23794,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ=\""
+          "Value": "\"SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23979,13 +23818,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko=\""
+          "Value": "W/\"U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4mfpfyr0aw"
+          "Value": "7n9ef1h21h"
         },
         {
           "Name": "label",
@@ -23993,13 +23832,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko="
+          "Value": "sha256-U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q="
         }
       ]
     },
     {
-      "Route": "_framework/NrSearchApp.4mfpfyr0aw.pdb.gz",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-4mfpfyr0aw.gz",
+      "Route": "_framework/NrSearchApp.7n9ef1h21h.pdb.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-7n9ef1h21h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24016,11 +23855,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ=\""
+          "Value": "\"SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24038,7 +23877,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4mfpfyr0aw"
+          "Value": "7n9ef1h21h"
         },
         {
           "Name": "label",
@@ -24046,7 +23885,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ="
+          "Value": "sha256-SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays="
         }
       ]
     },
@@ -24069,11 +23908,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko=\""
+          "Value": "\"U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:05 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24083,13 +23922,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko="
+          "Value": "sha256-U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q="
         }
       ]
     },
     {
       "Route": "_framework/NrSearchApp.pdb",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-4mfpfyr0aw.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-7n9ef1h21h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -24108,11 +23947,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ=\""
+          "Value": "\"SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24132,19 +23971,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko=\""
+          "Value": "W/\"U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tP1i/LxZNbzHJJnS8sPlfTE2czkGGM+JbSZGAb7Cjko="
+          "Value": "sha256-U8sGw+W0fx8MKO4QCs9kKtGKaq010JgAX+V5BXYEs9Q="
         }
       ]
     },
     {
       "Route": "_framework/NrSearchApp.pdb.gz",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-4mfpfyr0aw.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\34h7ifppjx-7n9ef1h21h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24161,11 +24000,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ=\""
+          "Value": "\"SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24183,7 +24022,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uqE/8PjIPtqQuLalh3tlW75+O3KO7xlBVXrDxoBtFOQ="
+          "Value": "sha256-SgUyC6swqU3GcawRSQ3PUNb1b4kktd+R+DJha1X7Ays="
         }
       ]
     },
@@ -24206,11 +24045,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE=\""
+          "Value": "\"LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:05 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24220,18 +24059,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE="
+          "Value": "sha256-LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg="
         }
       ]
     },
     {
       "Route": "_framework/NrSearchApp.wasm",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-1ibghlx7yj.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-xvb4r8e92p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077796795"
+          "Quality": "0.000077790743"
         }
       ],
       "ResponseHeaders": [
@@ -24241,15 +24080,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12853"
+          "Value": "12854"
         },
         {
           "Name": "ETag",
-          "Value": "\"WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk=\""
+          "Value": "\"cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24269,19 +24108,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE=\""
+          "Value": "W/\"LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OZOhuRCO1sdxwgSeuRcJXjJXojl1bWMOHTjcvRvGKUE="
+          "Value": "sha256-LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg="
         }
       ]
     },
     {
       "Route": "_framework/NrSearchApp.wasm.gz",
-      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-1ibghlx7yj.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-xvb4r8e92p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24290,7 +24129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12853"
+          "Value": "12854"
         },
         {
           "Name": "Content-Type",
@@ -24298,11 +24137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk=\""
+          "Value": "\"cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 20:25:06 GMT"
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24320,7 +24159,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WDOKe4QrY0n98ztUeho8x6PsWqJWgY+8JK7VKT4xTbk="
+          "Value": "sha256-cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/NrSearchApp.xvb4r8e92p.wasm",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\NrSearchApp.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xvb4r8e92p"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/NrSearchApp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/NrSearchApp.xvb4r8e92p.wasm",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-xvb4r8e92p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000077790743"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12854"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xvb4r8e92p"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/NrSearchApp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LVD1qw4t+WZdV0n0KGCm4AW1EnScv70seYNVdQ5oJcg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/NrSearchApp.xvb4r8e92p.wasm.gz",
+      "AssetFile": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\obj\\Debug\\net9.0\\compressed\\t6i22l9l63-xvb4r8e92p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 20:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xvb4r8e92p"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/NrSearchApp.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cfJhcBaiakbBfvOu/FuG6M4qsGPswZpLW64+CjvYQ2g="
         }
       ]
     },
