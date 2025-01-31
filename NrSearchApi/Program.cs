@@ -1,5 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// Lägg till detta för att säkerställa att konfigurationen läses in korrekt
+if (builder.Environment.IsDevelopment())
+{
+    builder.Configuration.AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true);
+}
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

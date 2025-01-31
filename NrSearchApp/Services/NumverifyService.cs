@@ -13,10 +13,14 @@ namespace NrSearchApp.Services
     public class NumverifyService
     {
         private readonly HttpClient _httpClient;
+        private readonly string _apiKey;
 
-        public NumverifyService(HttpClient httpClient)
+        public NumverifyService(HttpClient httpClient, ApiSettings settings)
         {
             _httpClient = httpClient;
+            _httpClient.BaseAddress = new Uri("https://apilayer.net/api/");
+            _apiKey = settings.NumverifyApiKey;
+            Console.WriteLine($"NumverifyService initialized with API key length: {_apiKey.Length}");
         }
 
         public async Task<PhoneNumberModel?> ValidatePhoneNumber(string number)
@@ -24,11 +28,32 @@ namespace NrSearchApp.Services
             try
             {
                 number = number.TrimStart('+');
-                return await _httpClient.GetFromJsonAsync<PhoneNumberModel>($"api/phone/validate/{number}");
+                var url = $"validate?access_key={_apiKey}&number={number}&format=1";
+                Console.WriteLine($"Making request to: validate endpoint");
+
+                var response = await _httpClient.GetAsync(url);
+                var content = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Response status: {response.StatusCode}");
+                Console.WriteLine($"Response content: {content}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadFromJsonAsync<PhoneNumberModel>();
+                    if (result != null)
+                    {
+                        Console.WriteLine($"Parsed result - Valid: {result.Valid}, Country: {result.Country}");
+                    }
+                    return result;
+                }
+                else
+                {
+                    Console.WriteLine($"Request failed with status: {response.StatusCode}");
+                    return null;
+                }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error validating number: {ex.Message}");
+                Console.WriteLine($"Error in ValidatePhoneNumber: {ex.Message}");
                 return null;
             }
         }

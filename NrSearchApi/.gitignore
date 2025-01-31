@@ -1,4 +1,4 @@
-## Skydda känsliga filer
+## Lägg till dessa rader
 appsettings.json
 appsettings.*.json
 !appsettings.example.json 
