@@ -1,0 +1,8 @@
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.csproj.AssemblyReference.cache
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.AssemblyInfoInputs.cache
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.AssemblyInfo.cs
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.csproj.CoreCompileInputs.cache
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\46706\Desktop\Development\Projekt\OOP Fortsättning\Blazor_NrSearch\NrSearchApi\obj\Debug\net9.0\NrSearchApi.sourcelink.json

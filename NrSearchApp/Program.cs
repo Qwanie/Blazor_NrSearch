@@ -10,14 +10,17 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-// Explicit configuration setup
+// Läs API-nyckel från miljövariabel eller config
 var apiSettings = new ApiSettings 
 { 
-    NumverifyApiKey = "ee00a3752fdf985a24170072ad92afc0" 
+    NumverifyApiKey = builder.Configuration["ApiSettings:NumverifyApiKey"] ?? string.Empty
 };
 builder.Services.AddSingleton(apiSettings);
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+builder.Services.AddScoped(sp => new HttpClient 
+{ 
+    BaseAddress = new Uri("https://localhost:7000/") 
+});
 builder.Services.AddScoped<NumverifyService>();
 builder.Services.AddSingleton<ISearchStorage, LocalSearchStorage>();
 
