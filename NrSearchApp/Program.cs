@@ -10,14 +10,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-// Läs konfiguration från appsettings.json och appsettings.Development.json
-builder.Configuration.AddJsonFile("appsettings.json", optional: true);
-if (builder.HostEnvironment.IsDevelopment())
-{
-    builder.Configuration.AddJsonFile("appsettings.Development.json", optional: true);
-}
-
-// Registrera ApiSettings från konfiguration
+// Läs konfiguration från wwwroot/appsettings.json
 var apiSettings = new ApiSettings 
 { 
     NumverifyApiKey = builder.Configuration["ApiSettings:NumverifyApiKey"] ?? string.Empty

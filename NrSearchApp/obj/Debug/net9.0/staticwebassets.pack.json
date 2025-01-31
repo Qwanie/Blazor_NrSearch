@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\NrSearchApp.styles.css"
     },
     {
+      "Id": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\wwwroot\\appsettings.example.json",
+      "PackagePath": "staticwebassets\\appsettings.example.json"
+    },
+    {
+      "Id": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\Users\\46706\\Desktop\\Development\\Projekt\\OOP Fortsättning\\Blazor_NrSearch\\NrSearchApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

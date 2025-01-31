@@ -1,4 +1,29 @@
 ## Skydda känsliga filer
 appsettings.json
 appsettings.*.json
-!appsettings.example.json 
+wwwroot/appsettings.json
+wwwroot/appsettings.*.json
+!appsettings.example.json
+!wwwroot/appsettings.example.json
+
+## Visual Studio filer
+.vs/
+bin/
+obj/
+
+## User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio Code
+.vscode/
+
+## Rider
+.idea/ 

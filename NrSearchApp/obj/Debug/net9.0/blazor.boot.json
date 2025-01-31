@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "NrSearchApp",
   "resources": {
-    "hash": "sha256-XIWiuV+lm/E4HFJ0xGg1rnYd7NZ0l+pvWe9qzTTGz1o=",
+    "hash": "sha256-HiS02ZAp7QG5qpSfQpNVXLA9egJxVf5G3BXqJa9/uBA=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -205,8 +205,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "NrSearchApp.k8ocstcpra.wasm": "NrSearchApp.wasm",
-      "NrSearchApp.qd58vz8kz4.pdb": "NrSearchApp.pdb"
+      "NrSearchApp.ftjrpkoxox.wasm": "NrSearchApp.wasm",
+      "NrSearchApp.f0s1alcaac.pdb": "NrSearchApp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -420,14 +420,18 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "NrSearchApp.k8ocstcpra.wasm": "sha256-TMoo08xhPHHuFmi6TYubtig6hj87MxjzEjC7DBczneM="
+      "NrSearchApp.ftjrpkoxox.wasm": "sha256-7RkruO5F4pbdHqfc/OhOAOZ6DIh0LUxRMvs2E+8q+yg="
     },
     "pdb": {
-      "NrSearchApp.qd58vz8kz4.pdb": "sha256-wsdi0LdNgJ/0nZiL7/ExBH/lscluIkwENDS7zWCFHRY="
+      "NrSearchApp.f0s1alcaac.pdb": "sha256-D0KOk1Nc9hFBOCjampHqAjFi0Gt52oF2MDFTiqfT87I="
     }
   },
   "cacheBootResources": true,
   "debugLevel": -1,
+  "appsettings": [
+    "../appsettings.example.json",
+    "../appsettings.json"
+  ],
   "globalizationMode": "sharded",
   "extensions": {
     "blazor": {}
